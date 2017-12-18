@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function birthdaycountdown (daysuntilmybirthday) {
+
+            if (daysuntilmybirthday == 0) {
+                console.log ("♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*");
+                console.log ("♪ღ♪░H░A░P░P░Y░ B░I░R░T░H░D░A░Y░░♪ღ♪");
+                console.log ("*•♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•«");
+                } 
+            else {
+                if (daysuntilmybirthday < 4) {
+                    console.log (daysuntilmybirthday + " DAYS UNTIL MY BIRTHDAY!!!");
+                }
+                else {
+                    if (daysuntilmybirthday < 30) {
+                        console.log (daysuntilmybirthday + " DAYS TO GO UNTIL MY BIRTHDAY!")
+                    }
+                    else {
+                        if (daysuntilmybirthday >= 30) {
+                            console.log (daysuntilmybirthday + " days until my birthday. Such a long time ... :(")
+                        }
+                    }
+                }
+            }
+        }
+        
+        birthdaycountdown (50);
+        birthdaycountdown (25);
+        birthdaycountdown (5);
+        birthdaycountdown (0);
+        
+    </script>
+    
+</body>
+</html>
